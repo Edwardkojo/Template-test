@@ -1,0 +1,11 @@
+
+html {
+    /*prevent over streching of the page paddin or extra paddin eg; is making the vertical bar longer, ths instruction prevents that */
+    box-sizing: border-box ;
+}
+
+body {
+    margin: 0;
+    /* vh stands for view pot height. it makes sure that any background we place should fill the screen no matter the amount of content on the page. */
+    min-height: 100vh;
+}
